@@ -82,7 +82,7 @@ if (check_permission() != 1) {
                         <div class="card-body">
                             <h4 class="card-title">Add Category</h4>
                                 <div class="basic-form">
-                                    <form action="../Actions/Add_category.php" method = "post">
+                                    <form action="../actions/add_category.php" method = "post">
                                         <div class="input-group mb-3">
                                             <input type="text" class="form-control" name= "category_name" required="required">
                                             <div class="input-group-append">

@@ -28,6 +28,7 @@
               <h4>Collins' iStore</h4>
               <h1>Get Your Dream iPhone</h1>
               <p>Collins' iStore is the best place to buy your iPhone in Lilongwe.</p>
+              <a class="button" href="views/browse.php">Browse</a>
               <a class="button" href="views/store.php">Shop Now</a>
             </div>
           </div>

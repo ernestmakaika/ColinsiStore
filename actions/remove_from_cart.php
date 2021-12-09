@@ -1,7 +1,7 @@
 <?php
 
 require("../controllers/cart_controller.php");
-require('../Settings/core.php');
+require('../settings/core.php');
 
 if(isset($_GET['product_id'])){
     $product_id = $_GET['product_id'];

@@ -1,9 +1,6 @@
 <?php
 require('../settings/core.php');
 require('../controllers/product_controller.php');
-
-check_login();
-
 ?>
 
 <!DOCTYPE html>
@@ -17,14 +14,14 @@ check_login();
 
 </head>
 <body>
-  <?php include('menu.php')?>
+  <?php include('menu2.php')?>
 
     <!-- ================ trending product section start ================= -->  
     <section style="padding-top: 20px;">
       <div class="container">
         <div class="section-intro pb-60px">
          
-          <h2>Trending <span class="section-intro__style">iPhones</span></h2>
+          <h2>Browse <span class="section-intro__style">iPhones</span></h2>
         </div>
         <div class="row">
         <?php  $products = select_all_products_controller(); 
@@ -38,7 +35,7 @@ check_login();
                 </div>
                 <div class='card-body'>
                   <p>{$product['cat_name']}</p>
-                  <h4 class='card-product__title'><a href='../views/product-detail.php?product_id={$product["product_id"]}'>{$product['product_title']}</a></h4>
+                  <h4 class='card-product__title'>{$product['product_title']}</a></h4>
                   <p class='card-product__price'>GHS{$product['product_price']}</p>
                 </div>
               </div>
